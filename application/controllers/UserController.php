@@ -52,6 +52,7 @@ class UserController extends CI_Controller {
 					unset($data['retype_password']);
 					$this->UserModel->RegisterUser($data);
 					echo "Success";
+					// Hello world
 				}
 				
             }
