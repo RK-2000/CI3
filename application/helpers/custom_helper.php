@@ -8,4 +8,16 @@ function dd($data)
     echo "</pre>";
 }
 
+
+function is_authenticated(){
+    $ci =& get_instance();
+    if($ci->session->userdata('email')) {
+        return true;
+    } else { 
+        return false;
+    }
+}
+
+
+
 ?>

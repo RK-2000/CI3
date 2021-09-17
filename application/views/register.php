@@ -110,7 +110,7 @@
           </a>
         </div>
 
-        <a href="login.html" class="text-center">I already have a membership</a>
+        <a href="login_view" class="text-center">I already have a membership</a>
       </div>
       <!-- /.form-box -->
     </div><!-- /.card -->
